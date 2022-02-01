@@ -32,9 +32,16 @@ contact.last_name = "Jassy"
 contact.email = "andy@amazon.com"
 contact.phone_number = "777-777-7777"
 contact.company_id = amazon.id
+contact.save
 
 
 # 3. write code to display how many contacts are in the database AND each contact's info (name, email), e.g.:
+
+puts "There are #{Contact.all.count} contacts"
+all_contacts = Contact.all
+for contact in all_contacts
+    puts "#{contact.first_name} #{contact.last_name} - #{contact.email}"
+end
 
 # ---------------------------------
 # Contacts: 4
