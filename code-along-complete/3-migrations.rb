@@ -11,7 +11,7 @@ Salesperson.destroy_all
 # Add new Salesperson model with database table
 
 # 1. in terminal, run:
-# rails generate model Salesperson
+rails generate model Salesperson
 
 # 2. open newly generated files
 
